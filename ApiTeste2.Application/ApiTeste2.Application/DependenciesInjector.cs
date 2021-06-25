@@ -10,6 +10,7 @@ namespace ApiTeste2.Application
         {
             #region Application
             svcCollection.AddScoped<ICalcularJurosApplication, CalcularJurosApplication>();
+            svcCollection.AddScoped<ICodeApplication, CodeApplication>();
 
             #endregion
 
