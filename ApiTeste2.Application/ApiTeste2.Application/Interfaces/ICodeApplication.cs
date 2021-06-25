@@ -4,6 +4,6 @@ namespace ApiTeste2.Application.Interfaces
 {
     public interface ICodeApplication
     {
-        Task<string> GetUrlGitHub();
+        string GetUrlGitHub();
     }
 }

@@ -46,7 +46,7 @@ namespace ApiTeste2.Controllers
         {
             try
             {
-                var result = await _codeApplication.GetUrlGitHub();
+                var result = _codeApplication.GetUrlGitHub();
                 return new OkObjectResult(result);
             }
             catch (Exception ex)

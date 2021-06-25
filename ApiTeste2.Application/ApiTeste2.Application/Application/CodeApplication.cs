@@ -7,9 +7,10 @@ namespace ApiTeste2.Application.Application
 {
     public class CodeApplication : ICodeApplication
     {
-        public Task<string> GetUrlGitHub()
+        public string GetUrlGitHub()
         {
-            throw new NotImplementedException();
+            string result = "https://github.com/erasmofreitas/TestProjectK2";
+            return result;
         }
     }
 }
