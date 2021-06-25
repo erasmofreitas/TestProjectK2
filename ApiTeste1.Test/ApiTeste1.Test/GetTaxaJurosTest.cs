@@ -9,7 +9,8 @@ namespace ApiTeste1.Test
     {
         public decimal GetTaxaJuros()
         {
-            throw new NotImplementedException();
+            decimal taxaJuros = 0.01m;
+            return taxaJuros;
         }
     }
 }
